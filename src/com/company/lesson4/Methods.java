@@ -17,7 +17,7 @@ public class Methods {
     }
 
     public static String concat(String str, String str2) {
-        String r = str +": " + str2;
-        return r;
+        String result = str +": " + str2;
+        return result;
     }
 }
