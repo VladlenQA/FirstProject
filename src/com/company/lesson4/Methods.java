@@ -16,6 +16,12 @@ public class Methods {
         System.out.println("Hello " + age);
     }
 
+    /**
+     *  Concat 2 Strings
+     * @param str
+     * @param str2
+     * @return
+     */
     public static String concat(String str, String str2) {
         String result = str +": " + str2;
         return result;
