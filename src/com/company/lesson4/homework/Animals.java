@@ -32,12 +32,21 @@ public class Animals {
         return bears + tigers + parrots + elephants + racoons;
     }
 
-    public static int countAnimalsNextYear(int bears, double coefficientBears, int tigers, double coefficientTigers, int parrots, double coefficientParrots, int elephants, double coefficientElephants, int racoons, double coefficientRaccoons, int porcupine, double coefficientPorcupine) {
+    public static int countAnimalsNextYear(int bears, double coefficientBears,
+                                           int tigers, double coefficientTigers,
+                                           int parrots, double coefficientParrots,
+                                           int elephants, double coefficientElephants,
+                                           int racoons, double coefficientRaccoons,
+                                           int porcupine, double coefficientPorcupine) {
         int amountAnimals = (int) (bears + bears * coefficientBears) +(int) (tigers + tigers * coefficientTigers) + (int) (parrots + parrots * coefficientParrots) + (int) (elephants + elephants * coefficientElephants) + (int) (racoons + racoons * coefficientRaccoons) + (int) (porcupine + porcupine * coefficientPorcupine);
         return amountAnimals;
     }
 
-    public static int countAnimalsNextYear(int bears, double coefficientBears, int tigers, double coefficientTigers, int parrots, double coefficientParrots, int elephants, double coefficientElephants, int racoons, double coefficientRaccoons) {
+    public static int countAnimalsNextYear(int bears, double coefficientBears,
+                                           int tigers, double coefficientTigers,
+                                           int parrots, double coefficientParrots,
+                                           int elephants, double coefficientElephants,
+                                           int racoons, double coefficientRaccoons) {
         int amountAnimals = (int) (bears + bears * coefficientBears) +(int) (tigers + tigers * coefficientTigers) + (int)(parrots + parrots * coefficientParrots) + (int)(elephants + elephants * coefficientElephants) + (int) (racoons + racoons * coefficientRaccoons);
         return amountAnimals;
     }
