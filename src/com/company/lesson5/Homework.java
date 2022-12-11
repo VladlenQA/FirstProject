@@ -16,8 +16,7 @@ public class Homework {
             } else if (a > 0) {
                 System.out.println("Вы ввели целое положительное число " + a);
             } else System.out.println("Вы ввели 0");
-        }
-        else if (scanner.hasNextDouble()) {
+        } else if (scanner.hasNextDouble()) {
             double b = scanner.nextDouble();
             System.out.printf("Вы ввели дробное число = " + "%.2f", b);
         } else {
