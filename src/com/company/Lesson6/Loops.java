@@ -1,5 +1,7 @@
 package com.company.Lesson6;
 
+import java.util.Scanner;
+
 public class Loops {
     public static void main(String[] args) {
 
@@ -21,5 +23,14 @@ public class Loops {
         do {
             System.out.println("loop do while: " + i--);
         } while (i > 0);
+
+        Scanner scanner = new Scanner(System.in);
+        do {
+            System.out.println("Please enter some valuer: ");
+            String s = scanner.nextLine();
+            if (s.equals("q")) {
+                break;
+            }
+        } while (true);
     }
 }
