@@ -15,7 +15,7 @@ public class Practice2 {
         int max = array[0];
         int a = 0;
         for (int i = 0; i < array.length; i++) {
-            if (array[i] >= max) {
+            if (array[i] > max) {
                 max = array[i];
                 a = i;
             }
@@ -29,7 +29,7 @@ public class Practice2 {
         int max = array[0];
         int a = 0;
         for (int i = 0; i < array.length; i++) {
-            if (array[i] >= max) {
+            if (array[i] > max) {
                 max = array[i];
                 a = i;
             }
