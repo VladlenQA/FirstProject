@@ -31,5 +31,4 @@ public class Homework1 {
         double average = (double) sum / (double) array.length;
         return average;
     }
-
 }
