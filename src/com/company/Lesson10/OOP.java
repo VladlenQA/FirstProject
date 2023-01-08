@@ -14,5 +14,8 @@ public class OOP {
 
         Employee employee2 = new Employee("Max", "Tishenko", 500);
         employee2.printEmployeeSalary();
+
+        ColorBox colorBox = new ColorBox();
+
     }
 }

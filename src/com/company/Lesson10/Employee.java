@@ -5,9 +5,9 @@ public class Employee {
     String surname;
     int salary;
 
-    public Employee(String someName, String someSurname) {
-        name = someName;
-        surname = someSurname;
+    public Employee(String name, String surname) {
+        this.name = name;
+        this.surname = surname;
     }
 
     public void printEmployeeSalary() {
